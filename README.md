@@ -3,6 +3,7 @@
 * نمونه ربات موجود در تلگرام : [@ExploitInstaBot](https://t.me/ExploitInstaBot)
 
 #
-![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/ExploitNet/insta-dl/latest/total) | ![GitHub Repo stars](https://img.shields.io/github/stars/ExploitNet/insta-dl?style=social)
+<img alt="Total Insta-dl Downloads" src="https://img.shields.io/github/downloads/ExploitNet/insta-dl/total?label=Total%20Downloads"> | <img alt="Total Insta-dl Stars" src="https://img.shields.io/github/stars/ExploitNet/insta-dl">
+
 
 
