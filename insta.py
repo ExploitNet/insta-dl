@@ -16,8 +16,11 @@ def get_video_url(link):
     response = requests.get(api_url)
     if response.status_code == 200:
         data = response.json()
-        if data['Status'] == "True":
-            return data['data']['url']
+        if data.get('status') == True:
+                if data['data'].get('status') == "redirect":
+                    return data['data'].get('url')
+                else:
+                    print("Unexpected data status:", data['data'].get('status'))
     return None
 
 
